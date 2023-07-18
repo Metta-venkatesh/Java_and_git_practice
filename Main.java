@@ -14,6 +14,7 @@ public class Main {
             Freshers fresher4 = new Freshers("Sarthak","Backend");
             System.out.println(Freshers.nooffreshers);
 
+
              /* Freshers[] Jivox={fresher1,fresher2,fresher3};
 
         System.out.println(Jivox[0].name+"\n"+"Designation: "+Jivox[0].designation);
