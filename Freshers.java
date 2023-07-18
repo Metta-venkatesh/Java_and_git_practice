@@ -7,6 +7,6 @@ public class Freshers {
     {
         this.name=name;
         this.designation=des;
-        nooffreshers++;
+        nooffreshers--;
     }
 }
