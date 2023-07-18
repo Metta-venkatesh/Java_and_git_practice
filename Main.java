@@ -10,9 +10,11 @@ public class Main {
             col.colname(fresher1,"NIT BHOPAL");
             System.out.println(fresher1.name+"\nfrom "+fresher1.Collegename);
             Freshers fresher2 = new Freshers("Sachin","Backend");
+
             Freshers fresher3 = new Freshers("Kshitiz","Frontend");
             Freshers fresher4 = new Freshers("Sarthak","Backend");
             System.out.println(Freshers.nooffreshers);
+
 
              /* Freshers[] Jivox={fresher1,fresher2,fresher3};
 

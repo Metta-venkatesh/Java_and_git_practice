@@ -8,6 +8,6 @@ public class College {
 
         void colname(Freshers fresher,String name)
         {
-            fresher.Collegename=name;
+            //fresher.Collegename=name;
         }
 }
