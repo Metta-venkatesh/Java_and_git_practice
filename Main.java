@@ -1,11 +1,14 @@
-
-
 public class Main {
 
     public static void main(String[] args)
 
     {
-            Freshers fresher1 = new Freshers("Metta Venkatesh","Backend");
+        Cars car=new Cars("Buggati cheron");
+
+        car.move(car.carname);
+        Bikes bike=new Bikes("BMW S1000R");
+        bike.stop(bike.bikename);
+           /* Freshers fresher1 = new Freshers("Metta Venkatesh","Backend");
             College col=new College();
             col.colname(fresher1,"NIT BHOPAL");
             System.out.println(fresher1.name+"\nfrom "+fresher1.Collegename);
@@ -14,7 +17,7 @@ public class Main {
             Freshers fresher4 = new Freshers("Sarthak","Backend");
             System.out.println(Freshers.nooffreshers);
 
-             /* Freshers[] Jivox={fresher1,fresher2,fresher3};
+              Freshers[] Jivox={fresher1,fresher2,fresher3};
 
         System.out.println(Jivox[0].name+"\n"+"Designation: "+Jivox[0].designation);
         //System.out.println(Jivox[0].designation);
