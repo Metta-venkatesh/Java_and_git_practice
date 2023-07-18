@@ -1,14 +1,15 @@
 public class Main {
 
-    public static void main(String[] args)
-
-    {
-        Cars car=new Cars("Buggati cheron");
+    public static void main(String[] args) {
+        Cars car = new Cars("Buggati cheron");
 
         car.move(car.carname);
-        Bikes bike=new Bikes("BMW S1000R");
+        Bikes bike = new Bikes("BMW S1000R");
         bike.stop(bike.bikename);
-           /* Freshers fresher1 = new Freshers("Metta Venkatesh","Backend");
+        bike.testing();
+        car.testing();
+
+        /*    Freshers fresher1 = new Freshers("Metta Venkatesh","Backend");
             College col=new College();
             col.colname(fresher1,"NIT BHOPAL");
             System.out.println(fresher1.name+"\nfrom "+fresher1.Collegename);
@@ -22,10 +23,10 @@ public class Main {
         System.out.println(Jivox[0].name+"\n"+"Designation: "+Jivox[0].designation);
         //System.out.println(Jivox[0].designation);
         System.out.println(Jivox[1].name+"\n"+"Designation: "+Jivox[1].designation);
-        System.out.println(Jivox[2].name+"\n"+"Designation: "+Jivox[2].designation);*/
+        System.out.println(Jivox[2].name+"\n"+"Designation: "+Jivox[2].designation);
     }
 
-        /*testing obj=new testing(5);
+        testing obj=new testing(5);
         System.out.println(obj.num);
         Scanner scanner=new Scanner(System.in);
         int y=scanner.nextInt();
@@ -36,4 +37,5 @@ public class Main {
         obj2.setter(69,"Metta Venkatesh");
         System.out.println(obj2.name+" \n"+obj2.num);*/
 
+    }
 }

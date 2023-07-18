@@ -4,6 +4,12 @@ public class Bikes extends Vehicle {
     {
         this.bikename=name;
     }
+
+//    @override
+    void testing()
+    {
+        System.out.println("This is in Bikes class");
+    }
 }
 
 
