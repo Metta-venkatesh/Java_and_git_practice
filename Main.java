@@ -11,7 +11,7 @@ public class Main {
         System.out.println(fresher1.name+"\nfrom "+fresher1.Collegename);
             Freshers fresher2 = new Freshers("Sachin","Backend");
               Freshers fresher3 = new Freshers("Kshitiz","Frontend");
-        System.out.println(Freshers.nooffreshers);
+        System.out.println(Freshers.nooffreshers:);
 
              /* Freshers[] Jivox={fresher1,fresher2,fresher3};
 
